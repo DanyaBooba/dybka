@@ -1,0 +1,53 @@
+@font-face {
+	font-family: SourceCodePro-Bold;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Bold.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-SemiBold;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-ExtraBold;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-Light;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Light.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-ExtraLight;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-Medium;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Medium.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-Regular;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-Black;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Black.ttf');
+}
+
+@font-face {
+	font-family: SourceCodePro-Medium;
+	font-display: swap;
+	src: url('/fonts/Source Code Pro/SourceCodePro-Medium.ttf');
+}

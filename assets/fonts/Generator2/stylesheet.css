@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Bold.eot');
+    src: local('Generator Bold'), local('Generator-Bold'),
+        url('Generator-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Bold.woff2') format('woff2'),
+        url('Generator-Bold.woff') format('woff'),
+        url('Generator-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Light.eot');
+    src: local('Generator Light'), local('Generator-Light'),
+        url('Generator-Light.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Light.woff2') format('woff2'),
+        url('Generator-Light.woff') format('woff'),
+        url('Generator-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Black.eot');
+    src: local('Generator Black'), local('Generator-Black'),
+        url('Generator-Black.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Black.woff2') format('woff2'),
+        url('Generator-Black.woff') format('woff'),
+        url('Generator-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Medium.eot');
+    src: local('Generator Medium'), local('Generator-Medium'),
+        url('Generator-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Medium.woff2') format('woff2'),
+        url('Generator-Medium.woff') format('woff'),
+        url('Generator-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-SemiBold.eot');
+    src: local('Generator SemiBold'), local('Generator-SemiBold'),
+        url('Generator-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Generator-SemiBold.woff2') format('woff2'),
+        url('Generator-SemiBold.woff') format('woff'),
+        url('Generator-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Regular.eot');
+    src: local('Generator Regular'), local('Generator-Regular'),
+        url('Generator-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Regular.woff2') format('woff2'),
+        url('Generator-Regular.woff') format('woff'),
+        url('Generator-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-Thin.eot');
+    src: local('Generator Thin'), local('Generator-Thin'),
+        url('Generator-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Generator-Thin.woff2') format('woff2'),
+        url('Generator-Thin.woff') format('woff'),
+        url('Generator-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-UltraBold.eot');
+    src: local('Generator UltraBold'), local('Generator-UltraBold'),
+        url('Generator-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('Generator-UltraBold.woff2') format('woff2'),
+        url('Generator-UltraBold.woff') format('woff'),
+        url('Generator-UltraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Generator';
+    src: url('Generator-UltraLight.eot');
+    src: local('Generator UltraLight'), local('Generator-UltraLight'),
+        url('Generator-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Generator-UltraLight.woff2') format('woff2'),
+        url('Generator-UltraLight.woff') format('woff'),
+        url('Generator-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

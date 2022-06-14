@@ -1,0 +1,23 @@
+@font-face {
+	font-family: VinnytsiaCity;
+	font-display: swap;
+	src: url('/assets/fonts/Vinnytsia City/VinnytsiaCity.ttf');
+}
+
+@font-face {
+	font-family: VinnytsiaSansBold;
+	font-display: swap;
+	src: url('/assets/fonts/Vinnytsia City/VinnytsiaSansBold.ttf');
+}
+
+@font-face {
+	font-family: VinnytsiaSansReg;
+	font-display: swap;
+	src: url('/assets/fonts/Vinnytsia City/VinnytsiaSansReg.ttf');
+}
+
+@font-face {
+	font-family: VinnytsiaSerif;
+	font-display: swap;
+	src: url('/assets/fonts/Vinnytsia City/VinnytsiaSerif.ttf');
+}

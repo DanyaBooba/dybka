@@ -1,0 +1,11 @@
+@font-face {
+	font-family: PhonkSans-Light;
+	font-display: swap;
+	src: url('/fonts/Phonk/PhonkSans-Light.otf');
+}
+
+@font-face {
+	font-family: PhonkSans-LightItalic;
+	font-display: swap;
+	src: url('/fonts/Phonk/PhonkSans-LightItalic.otf');
+}

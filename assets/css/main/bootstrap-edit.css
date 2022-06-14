@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+	.offcanvas-start{
+        width: 700px!important;
+    }
+}
+
+@media (max-width: 991px) {
+	.offcanvas-start{
+        width: 100%!important;
+    }
+}
+
+h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: VinnytsiaSansReg;
+}
+
+*{
+    font-family: Ubuntu-Light; 
+}
+
+.font-monospace--my{
+    font-family: SourceCodePro-Regular!important;
+}
+
+.underline{
+    text-decoration: none;
+    color: rgb(131, 131, 131)!important;
+}
+
+.underline:hover{
+    text-decoration: none;
+    color: #3389e6!important;
+}
