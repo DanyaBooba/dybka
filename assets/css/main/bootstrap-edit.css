@@ -31,3 +31,12 @@ h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
     text-decoration: none;
     color: #3389e6!important;
 }
+
+.underline-list{
+    color: rgb(127, 127, 127)!important;
+    transition: .4s;
+}
+
+.underline-list:hover{
+    color: #000!important;
+}
