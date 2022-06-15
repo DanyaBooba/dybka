@@ -1,0 +1,11 @@
+.fancybox__button--zoom{
+    display: none!important;
+}
+
+.fancybox__button--slideshow{
+    display: none!important;
+}
+
+.fancybox__button--fullscreen{
+    display: none!important;
+}
