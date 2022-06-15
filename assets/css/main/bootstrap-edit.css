@@ -1,25 +1,5 @@
-@media (min-width: 992px) {
-	.offcanvas-start{
-        width: 700px!important;
-    }
-}
-
-@media (max-width: 991px) {
-	.offcanvas-start{
-        width: 100%!important;
-    }
-}
-
-h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: VinnytsiaSansReg;
-}
-
 *{
-    font-family: Ubuntu-Light; 
-}
-
-.font-monospace--my{
-    font-family: SourceCodePro-Regular!important;
+    font-family: Ubuntu-Light!important; 
 }
 
 .underline{
@@ -39,4 +19,12 @@ h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .underline-list:hover{
     color: #000!important;
+}
+
+@media (max-width: 575px) {
+	.img-full{
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+    }
 }
