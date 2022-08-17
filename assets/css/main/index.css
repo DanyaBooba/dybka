@@ -1,8 +1,12 @@
-img{
+.img {
     border-radius: 16px;
 
     /* background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 41.97%); */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img .no-shadow {
+    filter: 0;
 }
 
 .my-shadow {
@@ -49,4 +53,19 @@ p:hover .underline-2 {
         padding-top: 50px;
         padding-bottom: 50px;
     }   
+}
+
+/* Diploms */
+.img-di {
+    max-height: 800px;
+}
+
+.img-di-2 {
+    max-height: 430px;
+}
+
+/* Creagoo */
+.px-creagoo {
+    max-width: 900px;
+    margin: auto;
 }
