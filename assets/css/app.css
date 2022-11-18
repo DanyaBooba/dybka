@@ -1,7 +1,13 @@
+/* MAIN */
 @import '/assets/css/main/bootstrap-edit.css';
 @import '/assets/css/main/js-edit.css';
 @import '/assets/css/main/index.css';
 
+/* ANIMATE */
 @import '/assets/css/animate/animate.min.css';
 
-@import '/assets/css/fonts/fonts.css';
+/* LINKS */
+@import '/assets/css/main/link.css';
+
+/* FONTS */
+@import '/assets/css/fonts/index.css';
