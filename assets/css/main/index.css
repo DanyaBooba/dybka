@@ -1,6 +1,6 @@
 .img {
-    border-radius: 16px;
-    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    border-radius: 32px;
+    box-shadow: 0 5px 15px -10px rgb(0 0 0 / 50%);
 }
 
 .pointer {
@@ -54,7 +54,7 @@ p:hover .underline-2 {
     .main-page {
         padding-top: 50px;
         padding-bottom: 50px;
-    }   
+    }
 }
 
 /* Diploms */
@@ -70,4 +70,15 @@ p:hover .underline-2 {
 .px-creagoo {
     max-width: 900px;
     margin: auto;
+}
+
+.d-text
+{
+    font-size: 3.5rem;
+}
+
+@media(max-width: 900px) {
+    .d-text {
+        font-size: 2.2rem;
+    }
 }
