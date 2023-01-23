@@ -1,29 +1,25 @@
-/* LOAD */
-@font-face {
-    font-family: Krona One;
-    font-display: swap;
-    src: url('/assets/fonts/Krona One/Regular.ttf');
-}
-
 @font-face {
     font-family: Radiate Sans;
     font-display: swap;
-    src: url('/assets/fonts/other/Radiate Sans.ttf');
+    font-weight: 400;
+    src: url('/assets/fonts/RadiateSans.woff2') format("woff2");
 }
 
 @font-face {
     font-family: Inter Regular;
     font-display: swap;
-    src: url('/assets/fonts/Inter/Regular.ttf');
+    font-weight: 400;
+    src: url('/assets/fonts/InterRegular.woff2') format("woff2");
 }
 
 @font-face {
     font-family: Phonk;
     font-display: swap;
-    src: url('/assets/fonts/other/Phonk.otf');
+    font-weight: 400;
+    src: url('/assets/fonts/Phonk.woff2') format("woff2");
 }
 
-/* SET */
+/* Set */
 * {
     font-family: Inter Regular;
 }
@@ -34,14 +30,6 @@
 
 .h-ru nobr {
     font-family: Radiate Sans;
-}
-
-.h-en nobr {
-    font-family: Krona One;
-}
-
-.h-en {
-    font-family: Krona One !important;
 }
 
 .h-ru {

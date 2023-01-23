@@ -36,6 +36,20 @@
     <script src="/assets/js/wow.min.js"></script>
     <script src="/assets/js/fancybox.js"></script>
     <script src="/assets/js/index.js"></script>
+
+    <script>
+        if (matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+            document.documentElement.style.display = 'none';
+            document.head.insertAdjacentHTML(
+                'beforeend',
+                '<link rel="stylesheet" href="/styles/light.css" onload="document.documentElement.style.display=\'\'">'
+            );
+        }
+    </script>
+
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" id="stylesheetlight" href="/assets/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" id="stylesheetdark" href="/assets/css/dark.css" media="(prefers-color-scheme: dark)">
 </head>
 
 <body>
@@ -43,9 +57,9 @@
         <div class="container">
             <div class="row align-items-center g-5" style="margin-top: 32px; margin-bottom: 50px">
                 <div class="col-lg-6">
-                    <a href="/assets/img/mai2/box.jpg" aria-label="Открыть фоторафию в новом окне" target="_blank">
+                    <a href="/assets/img/mai2/box.jpg" aria-label="Открыть фотографию в новом окне" target="_blank">
                         <img src="/assets/img/mai2/box.jpg" class="d-block img wow bounce start-img img-fluid"
-                            alt="Дыбка Даниил держит диплом за первое место в конкусе Я — конструктор будущего, проводимого в институте МАИ">
+                            alt="Дыбка Даниил держит диплом за первое место в конкурсе Я — конструктор будущего, проводимого в институте МАИ">
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -56,12 +70,12 @@
                         </span>
                     </h1>
                     <p class="fs-4 pt-3" style="color: #747474">
-                        Мне <span class="text-dark">16</span> лет, учусь в <span class="text-dark">11</span> классе и успел
-                        защитить проект более чем в <span class="text-dark">14</span> крупных
+                        Мне <span class="text-dark--me">16</span> лет, учусь в <span class="text-dark--me">11</span> классе и успел
+                        защитить проект более чем в <span class="text-dark--me">14</span> крупных
                         конкурсах России.
                     </p>
                     <p class="fs-4" style="color: #747474;">
-                        <span class="text-dark">Программист</span>, UI-дизайнер, CEO.
+                        <span class="text-dark--me">Программист</span>, UI-дизайнер, CEO.
                     </p>
                 </div>
             </div>
@@ -296,80 +310,80 @@
             <div class="container text-center">
                 <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Я конструктор будущего.jpg">
-                            <img src="/assets/img/diplomas/Я конструктор будущего-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/iamthedesignerofthefuture.jpg">
+                            <img src="/assets/img/diplomas/iamthedesignerofthefuture-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом за 1 место в конкусе Я - конструктор будущего">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Setup.jpg">
-                            <img src="/assets/img/diplomas/Setup-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за участие в конкурсе S.E.T.UP">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/setup.jpg">
+                            <img src="/assets/img/diplomas/setup-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за участие в конкурсе S.E.T.UP">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Иннополис финал.jpg">
-                            <img src="/assets/img/diplomas/Иннополис финал-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/innopolisfinal.jpg">
+                            <img src="/assets/img/diplomas/innopolisfinal-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом за успешное прохождение обучения в Иннополисе">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/НТИ Олимпиада.jpg">
-                            <img src="/assets/img/diplomas/НТИ Олимпиада-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/ntiolympiad.jpg">
+                            <img src="/assets/img/diplomas/ntiolympiad-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом за прохождение в финал олимпиады НТИ">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Иннополис.jpg">
-                            <img src="/assets/img/diplomas/Иннополис-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за принятие участия в Иннополисе">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/innopolis.jpg">
+                            <img src="/assets/img/diplomas/innopolis-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за принятие участия в Иннополисе">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Поиск Нит 2022.jpg">
-                            <img src="/assets/img/diplomas/Поиск Нит 2022-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/searchfornit2022.jpg">
+                            <img src="/assets/img/diplomas/searchfornit2022-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом за успешную победу в конкурсе Поиск-НИТ">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Ученые будущего.jpg">
-                            <img src="/assets/img/diplomas/Ученые будущего-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/scientistsofthefuture.jpg">
+                            <img src="/assets/img/diplomas/scientistsofthefuture-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом молодого жюри за проект, представленный в МГУ">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Поиск Нит 2020.jpg">
-                            <img src="/assets/img/diplomas/Поиск Нит 2020-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за успешную победу в Поиск-НИТ">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/searchfornit2020.jpg">
+                            <img src="/assets/img/diplomas/searchfornit2020-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за успешную победу в Поиск-НИТ">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Космос.jpg">
-                            <img src="/assets/img/diplomas/Космос-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за участие в конкурсе Космос">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/kosmos.jpg">
+                            <img src="/assets/img/diplomas/kosmos-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом за участие в конкурсе Космос">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Балтийский конкурс.jpg">
-                            <img src="/assets/img/diplomas/Балтийский конкурс-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/balticcompetition.jpg">
+                            <img src="/assets/img/diplomas/balticcompetition-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом Балтийский конкурс">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Будущее начинается сегодня.jpg">
-                            <img src="/assets/img/diplomas/Будущее начинается сегодня-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом Будущее начинается сегодня">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/thefuturebeginstoday.jpg">
+                            <img src="/assets/img/diplomas/thefuturebeginstoday-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом Будущее начинается сегодня">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Первые ступени больших открытий.jpg">
-                            <img src="/assets/img/diplomas/Первые ступени больших открытий-box.jpg" class="img-fluid pointer wow fadeIn"
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/thefirststepsofgreatdiscoveries.jpg">
+                            <img src="/assets/img/diplomas/thefirststepsofgreatdiscoveries-box.jpg" class="img-fluid pointer wow fadeIn"
                                 alt="Диплом Первые ступени больших открытий">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/Старт в инновации.jpg">
-                            <img src="/assets/img/diplomas/Старт в инновации-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом Старт в инновации">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/startininnovation.jpg">
+                            <img src="/assets/img/diplomas/startininnovation-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом Старт в инновации">
                         </a>
                     </div>
                     <div class="col">
-                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/WorldSkills.jpg">
-                            <img src="/assets/img/diplomas/WorldSkills-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом WorldSkills">
+                        <a data-fancybox="diplomas" data-src="/assets/img/diplomas/worldskills.jpg">
+                            <img src="/assets/img/diplomas/worldskills-box.jpg" class="img-fluid pointer wow fadeIn" alt="Диплом WorldSkills">
                         </a>
                     </div>
                 </div>
@@ -443,7 +457,7 @@
         <div style="margin-bottom: 50px">
             <h2 id="contant" class="visually-hidden">Связаться со мной</h2>
             <div>
-                <p class="mb-0 text-dark fs-4">Дыбка Даниил Викторович, 16 лет.</p>
+                <p class="mb-0 text-dark--me fs-4">Дыбка Даниил Викторович, 16 лет.</p>
             </div>
             <div>
                 <a href="mailto:daniil@dybka.ru" class="link text-decoration-none fs-4">
