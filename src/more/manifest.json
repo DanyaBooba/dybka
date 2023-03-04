@@ -1,0 +1,14 @@
+{
+  "name": "Дыбка Даниил — молодой разработчик",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "browser",
+  "orientation": "any",
+  "background_color": "white",
+  "description": "Дыбка Даниил — молодой разработчик",
+  "icon": {
+    "src": "/img/favicon.ico",
+    "sizes": "256x256",
+    "type": "image/x-icon"
+  }
+}
