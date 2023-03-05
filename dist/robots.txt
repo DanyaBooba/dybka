@@ -1,2 +1,2 @@
-User-agent *
+User-agent: *
 Sitemap: https://dybka.ru/sitemap.xml
