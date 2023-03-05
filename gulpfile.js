@@ -28,6 +28,8 @@ export const styles = () => {
 		.pipe(autoprefixer())
 		.pipe(concatCss("index.css"))
 		.pipe(cssmin())
+		.pipe(gulp.dest("dist/css"))
+		.pipe(gulp.src("src/css/static/**/*.css"))
 		.pipe(gulp.dest("dist/css"));
 };
 

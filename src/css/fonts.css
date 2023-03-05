@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Radiate Sans;
+    font-display: swap;
+    font-weight: 400;
+    src: url('/assets/fonts/RadiateSans.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: Inter Regular;
+    font-display: swap;
+    font-weight: 400;
+    src: url('/assets/fonts/InterRegular.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: Phonk;
+    font-display: swap;
+    font-weight: 400;
+    src: url('/assets/fonts/Phonk.woff2') format("woff2");
+}
+
+* {
+    font-family: Inter Regular;
+}
+
+* nobr {
+    font-family: Inter Regular;
+}
+
+.h-ru nobr {
+    font-family: Radiate Sans;
+}
+
+.h-ru {
+    font-family: Radiate Sans !important;
+}
+
+.phonk {
+    font-family: Phonk !important;
+}

@@ -1,0 +1,24 @@
+.underline{
+    text-decoration: none;
+    color: rgb(131, 131, 131)!important;
+}
+
+.underline:hover{
+    text-decoration: none;
+    color: #3389e6!important;
+}
+
+.underline-list{
+    color: rgb(127, 127, 127)!important;
+    transition: .4s;
+}
+
+.underline-list:hover{
+    color: #000!important;
+}
+
+@media (max-width: 575px) {
+	.img-full{
+        width: 100%!important;
+    }
+}
