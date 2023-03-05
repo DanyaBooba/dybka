@@ -1,6 +1,6 @@
 .img {
-    border-radius: 32px;
-    box-shadow: 0 5px 15px -10px rgb(0 0 0 / 50%);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px -10px rgb(0 0 0 / 15%);
 }
 
 .pointer {
@@ -64,12 +64,6 @@ p:hover .underline-2 {
 
 .img-di-2 {
     max-height: 430px;
-}
-
-/* Creagoo */
-.px-creagoo {
-    max-width: 900px;
-    margin: auto;
 }
 
 .d-text

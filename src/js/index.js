@@ -1,37 +1,41 @@
 new WOW().init();
 
 Fancybox.bind('[data-fancybox="innopolis"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="mfti"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="mai"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="another"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="worldskills"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="diplomas"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="skolkovo"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="mgy"]', {
-    infinite: false
+	infinite: false,
 });
 
 Fancybox.bind('[data-fancybox="bionika"]', {
-    infinite: false
+	infinite: false,
+});
+
+Fancybox.bind('[data-fancybox="radarmms"]', {
+	infinite: false,
 });

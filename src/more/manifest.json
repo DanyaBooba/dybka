@@ -1,11 +1,11 @@
 {
-  "name": "Дыбка Даниил — молодой разработчик",
+  "name": "Дыбка Даниил — программист игр, приложений, платформ",
   "lang": "ru",
   "start_url": "/",
   "display": "browser",
   "orientation": "any",
   "background_color": "white",
-  "description": "Дыбка Даниил — молодой разработчик",
+  "description": "Дыбка Даниил — программист игр, приложений, платформ",
   "icon": {
     "src": "/img/favicon.ico",
     "sizes": "256x256",

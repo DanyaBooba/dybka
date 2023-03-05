@@ -1,40 +1,39 @@
 @font-face {
-    font-family: Radiate Sans;
+    font-family: NotoSans;
     font-display: swap;
     font-weight: 400;
-    src: url('/assets/fonts/RadiateSans.woff2') format("woff2");
+    src:
+        url('/fonts/NotoSans.woff') format("woff"),
+        url('/fonts/NotoSans.woff2') format("woff2");
 }
 
 @font-face {
-    font-family: Inter Regular;
+    font-family: Cakra;
     font-display: swap;
     font-weight: 400;
-    src: url('/assets/fonts/InterRegular.woff2') format("woff2");
-}
-
-@font-face {
-    font-family: Phonk;
-    font-display: swap;
-    font-weight: 400;
-    src: url('/assets/fonts/Phonk.woff2') format("woff2");
+    src:
+        url('/fonts/Cakra.woff') format("woff"),
+        url('/fonts/Cakra.woff2') format("woff2");
 }
 
 * {
-    font-family: Inter Regular;
+    font-family: NotoSans !important;
 }
 
 * nobr {
-    font-family: Inter Regular;
+    font-family: NotoSans !important;
 }
 
-.h-ru nobr {
-    font-family: Radiate Sans;
+.h-font nobr {
+    font-family: Cakra !important;
 }
 
-.h-ru {
-    font-family: Radiate Sans !important;
+.h-font {
+    font-family: Cakra !important;
 }
 
-.phonk {
-    font-family: Phonk !important;
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6
+{
+    font-family: Cakra !important;
 }
