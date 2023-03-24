@@ -8,12 +8,12 @@
 }
 
 @font-face {
-    font-family: Cakra;
+    font-family: Concrete;
     font-display: swap;
     font-weight: 400;
     src:
-        url('/fonts/Cakra.woff') format("woff"),
-        url('/fonts/Cakra.woff2') format("woff2");
+        url('/fonts/Concrete.woff') format("woff"),
+        url('/fonts/Concrete.woff2') format("woff2");
 }
 
 * {
@@ -25,17 +25,17 @@
 }
 
 .h-font nobr {
-    font-family: Cakra !important;
+    font-family: Concrete !important;
 }
 
 .h-font {
-    font-family: Cakra !important;
+    font-family: Concrete !important;
 }
 
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6
 {
-    font-family: Cakra !important;
+    font-family: Concrete !important;
 }
 
 @media(max-width: 365px) {

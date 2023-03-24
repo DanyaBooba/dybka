@@ -39,3 +39,11 @@ Fancybox.bind('[data-fancybox="bionika"]', {
 Fancybox.bind('[data-fancybox="radarmms"]', {
 	infinite: false,
 });
+
+Fancybox.bind('[data-fancybox="mai3"]', {
+	infinite: false,
+});
+
+Fancybox.bind('[data-fancybox="baumanka"]', {
+	infinite: false,
+});
