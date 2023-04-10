@@ -1,6 +1,7 @@
 :root {
-    --bg-color: #141414;
     --text-color: #fff;
+    --link-hover: #555;
 
-    --text-hover: #747474;
+    --bg-color: #262323;
+    --text-color: #fff;
 }

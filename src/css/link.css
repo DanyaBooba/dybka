@@ -1,8 +1,37 @@
 .link {
-    color: #747474;
-    transition: .5s;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: .18rem var(--link-hover) solid;
+
+    transition-property: color;
+    transition: .3s;
 }
 
 .link:hover {
     color: var(--text-color);
+    border-bottom: .18rem var(--text-color) solid;
+}
+
+.link:focus {
+    color: var(--text-color);
+    border-bottom: 0 var(--text-color) solid;
+    transition: .3s;
+}
+
+.link-icon svg {
+    color: var(--link-hover) !important;
+    fill: var(--link-hover) !important;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+    transition: .3s;
+}
+
+.link-icon:hover svg,
+.link-icon:focus svg {
+    color: var(--text-color) !important;
+    fill: var(--text-color) !important;
 }

@@ -47,3 +47,7 @@ Fancybox.bind('[data-fancybox="mai3"]', {
 Fancybox.bind('[data-fancybox="baumanka"]', {
 	infinite: false,
 });
+
+Fancybox.bind('[data-fancybox="radarmms_2"]', {
+	infinite: false,
+});
