@@ -35,3 +35,26 @@
     color: var(--text-color) !important;
     fill: var(--text-color) !important;
 }
+
+
+.link-header {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px var(--link-hover) solid;
+
+    transition-property: color;
+    transition: .3s;
+}
+
+.link-header:hover {
+    color: var(--text-color);
+    border-bottom: 1px var(--text-color) solid;
+}
+
+.link-header:focus {
+    color: var(--text-color);
+    border-bottom: 0 var(--text-color) solid;
+    transition: .3s;
+}

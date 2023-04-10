@@ -52,28 +52,52 @@
     <link rel="stylesheet" href="/css/app.css" />
     <link rel="stylesheet" id="stylesheetlight" href="/css/light.css" media="(prefers-color-scheme: light)">
     <link rel="stylesheet" id="stylesheetdark" href="/css/dark.css" media="(prefers-color-scheme: dark)">
+
+    <style>
+        p {
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="border-bottom mt-3">
-        <div class="container py-2">
-            <div class="d-flex">
+    <header class="border-bottom mt-3" style="margin-bottom: 100px">
+        <div class="container py-3">
+            <div class="d-flex align-items-center mb-2">
                 <div class="me-auto">
-                    <h3>Дыбка Даниил</h3>
+                    <h3 class="mb-0">Дыбка Даниил</h3>
                 </div>
-                <div class="d-flex">
-                    <div class="mx-4">
+                <div class="d-flex align-items-center">
+                    <div class="mx-3">
+                        Про меня
+                    </div>
+                    <div class="mx-3">
                         <a href="/" class="link-header">
                             Главная страница
                         </a>
                     </div>
-                    <div class="mx-4">
-                        <a href="/about.html" class="link-header">
-                            Про меня
+                    <div class="d-flex align-items-center  mx-3">
+                        <a href="//it.dybka.ru" target="_blank" class="link-header" aria-label="Открыть страницу с моими разработками">
+                            Разработки
                         </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                        </svg>
                     </div>
-                    <div class="mx-4">
-                        <a href="/en.html" class="link-header">
+                    <div class="d-flex align-items-center mx-3">
+                        <a href="//news.dybka.ru" target="_blank" class="link-header" aria-label="Открыть новостной канал">
+                            Новости
+                        </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            class="ms-2 icon"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                        </svg>
+                    </div>
+                    <div class="mx-3">
+                        <a href="/en.html" class="link-header" aria-label="Перевести страницу на английский">
                             Перевод
                         </a>
                     </div>
@@ -81,6 +105,98 @@
             </div>
         </div>
     </header>
+
+    <main class="container">
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <p>
+                Привет, меня зовут Дыбка Даниил. Я учусь в 11 классе. Занимаюсь дополнительным образованием
+                в МБУ ДО "ДДТ" г. Реутов Московской области, технопарк Изобретариум.
+            </p>
+            <p>
+                Уже четыре года я изучаю программирование, дизайн. Разрабатываю различные проекты и выступаю с ними
+                на конкурсах.
+            </p>
+            <p>
+                Я принимал участие в конкурсах Москвы, Казани, Санкт-Петербурга. Принимал участие в институте МГТУ им. Н.Э. Баумана,
+                МГУ, МАИ, МИФИ.
+            </p>
+        </div>
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <h2>Разрабатываемые проекты</h2>
+            <ol>
+                <li class="mb-3">
+                    Babka On The Hunt – игровой проект, в котором ты играешь за бабушку Дусю, которая
+                    путешествует по России. Проходите интересные локации: Павловский Посад, планета Эксолон,
+                    Физтех лицей им. Капицы и многое другое в мобильной игре Babka On The Hunt.
+                </li>
+                <li class="mb-3">
+                    Умный город: <a href="//vr.creagoo.ru" class="link" target="_blank">vr.creagoo.ru</a>.
+                </li>
+                <li class="mb-3">
+                    Мобильная разработка под именем Creagoo.
+                </li>
+                <li class="mb-3">
+                    Новостное медиа Special: <a href="//news.dybka.ru" target="_blank" class="link">news.dybka.ru</a>
+                </li>
+                <li class="mb-3">
+                    Сайт для мобильного разработчика Creagoo: <a href="//creagoo.ru" target="_blank" class="link">creagoo.ru</a>.
+                </li>
+                <li class="mb-3">
+                    Сайт про меня: <a href="//dybka.ru" target="_blank" class="link">dybka.ru</a>.
+                </li>
+                <li class="mb-3">
+                    Сайт о моих разработках: <a href="//it.dybka.ru" target="_blank" class="link">it.dybka.ru</a>.
+                </li>
+                <li class="mb-3">
+                    Личный кабинет Аквариум: <a href="//id.creagoo.ru" target="_blank" class="link">id.dybka.ru</a>.
+                </li>
+            </ol>
+        </div>
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <h2>Как я пришел в разработку</h2>
+            <p>
+                В 2019 году я узнал что на месте старого ЗАГСа открывается новый комплект занятий для детей, который
+                называется детский технопарк Изобретариум.
+            </p>
+            <p>
+                Мне стало очень интересно попробовать себя в этом деле, потому что дополнительное образование меня
+                всегда интересовало.
+            </p>
+            <p>
+                После первых занятий программирования с преподавателем мне предложили начать вести свой проект,
+                чтобы я стал лучше понимать программирование, а также чтобы выступать со своим проектом на конкурсах.
+            </p>
+        </div>
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <h2>Первые защиты проекта</h2>
+            <p>
+                Первые разы я защищал проект перед депутатами московской области, перед членами Государственной думы,
+                перед членами различного жюри.
+            </p>
+            <p>
+                Проект, с которым я выступал – Babka On The Hunt. Первый крупный проект, на котором я принимал
+                участие – Балтийский конкурс, по итогу на котором занял второе место.
+            </p>
+            <p>
+                Следующие конкурсы проходили на различных площадках Московской области и города Москвы. Я продолжал
+                принимать участие в конкурсах и развивал свой проект.
+            </p>
+        </div>
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <h2>Следующий проект</h2>
+            <p>
+                В 2021 году я решил начать вести новый проект, который не был связан с игровой тематикой. Мой
+                новый проект – умный город.
+            </p>
+        </div>
+        <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
+            <h2>Мои навыки</h2>
+            <p>
+                Я владею различными языками программирования, такими как Python, PHP, C#, Swift,
+                JavaScript, Java. Навыки ООП, HTML, CSS, MySQL. Создаю графику, развиваюсь как программист.
+            </p>
+        </div>
+    </main>
 </body>
 
 </html>
