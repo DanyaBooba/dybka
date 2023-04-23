@@ -51,3 +51,7 @@ Fancybox.bind('[data-fancybox="baumanka"]', {
 Fancybox.bind('[data-fancybox="radarmms_2"]', {
 	infinite: false,
 });
+
+Fancybox.bind('[data-fancybox="radiopoisk"]', {
+	infinite: false,
+});

@@ -27,3 +27,11 @@ i {
 {
     color: var(--text-color);
 }
+
+li {
+    color: var(--text-color);
+}
+
+div {
+    color: var(--text-color);
+}

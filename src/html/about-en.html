@@ -57,48 +57,118 @@
         p {
             margin-bottom: 30px;
         }
+
+        .me-auto--header {
+            margin-right: auto;
+        }
+
+        @media(max-width: 776px) {
+            .header--adaptive-nav {
+                display: none !important;
+            }
+
+            .me-auto--header {
+                margin: 0;
+            }
+        }
+
+        @media(min-width: 777px) {
+            .header--mobile-menu-button {
+                display: none !important;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header class="border-bottom mt-3" style="margin-bottom: 100px">
         <div class="container py-3">
-            <div class="d-flex align-items-center mb-2">
-                <div class="me-auto">
-                    <h3 class="mb-0">Dybka Daniil</h3>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+                <div class="me-auto--header">
+                    <div class="d-flex align-items-center">
+                        <h3 class="mb-0 me-3">Dybka Daniil</h3>
+                        <button class="btn btn-primary header--mobile-menu-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mobilemenu" aria-expanded="false" aria-controls="mobilemenu"
+                            aria-label="Open mobile menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center header--adaptive-nav">
                     <div class="mx-3">
                         About me
                     </div>
                     <div class="mx-3">
-                        <a href="/" class="link-header">
+                        <a href="/en.html" class="link-header">
                             Main page
                         </a>
                     </div>
                     <div class="d-flex align-items-center  mx-3">
-                        <a href="//it.dybka.ru" target="_blank" class="link-header" aria-label="Открыть страницу с моими разработками">
+                        <a href="//it.dybka.ru/en.html" target="_blank" class="link-header"
+                            aria-label="Open page with my development">
                             Development
                         </a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon"
+                            viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
                         </svg>
                     </div>
                     <div class="d-flex align-items-center mx-3">
-                        <a href="//news.dybka.ru" target="_blank" class="link-header" aria-label="Открыть новостной канал">
+                        <a href="//news.dybka.ru/en/" target="_blank" class="link-header" aria-label="Open media Special">
                             News
                         </a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                            class="ms-2 icon"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon"
                             viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
                         </svg>
                     </div>
                     <div class="mx-3">
-                        <a href="/en.html" class="link-header" aria-label="Перевести страницу на английский">
-                            At russian
+                        <a href="/" class="link-header" aria-label="Translate page to Russian">
+                            Translate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="mobilemenu">
+                <div class="d-flex fs-3 flex-column justify-content-end text-end col-md-9">
+                    <div class="mx-3 mb-2">
+                        About me
+                    </div>
+                    <div class="mx-3 mb-2">
+                        <a href="/" class="link-header">
+                            Main page
+                        </a>
+                    </div>
+                    <div class="d-flex mb-2 justify-content-end align-items-center  mx-3">
+                        <a href="//it.dybka.ru" target="_blank" class="link-header"
+                            aria-label="Open page with my development">
+                            Development
+                        </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                        </svg>
+                    </div>
+                    <div class="d-flex mb-2 justify-content-end align-items-center mx-3">
+                        <a href="//news.dybka.ru" target="_blank" class="link-header" aria-label="Open media Special">
+                            News
+                        </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2 icon"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z" />
+                        </svg>
+                    </div>
+                    <div class="mx-3">
+                        <a href="/" class="link-header" aria-label="Translate page to Russian">
+                            Translate
                         </a>
                     </div>
                 </div>
@@ -109,7 +179,7 @@
     <main class="container">
         <div class="fs-4" style="max-width: 700px; margin-bottom: 50px">
             <p>
-                Hi, my name is Dybka Daniel. I'm in the 11th grade. I am engaged in additional education
+                Hi, my name is Dybka Daniil. I'm in the 11th grade. I am engaged in additional education
                 in MBOU DO "DDT" of Reutov, Moscow region, technopark Inventarium.
             </p>
             <p>
