@@ -1,4 +1,5 @@
-.link {
+.link,
+.link:checked {
     color: var(--text-color);
     text-decoration: none;
     padding: 0;
@@ -9,16 +10,12 @@
     transition: .3s;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
     color: var(--text-color);
     border-bottom: .18rem var(--text-color) solid;
 }
 
-.link:focus {
-    color: var(--text-color);
-    border-bottom: 0 var(--text-color) solid;
-    transition: .3s;
-}
 
 .link-icon svg {
     color: var(--link-hover) !important;

@@ -60,7 +60,7 @@
             <div class="row align-items-center g-5" style="margin-top: 32px; margin-bottom: 50px">
                 <div class="col-lg-6">
                     <a href="/img/baumanka/box2.jpg" aria-label="Открыть фотографию в новом окне" target="_blank">
-                        <img src="/img/baumanka/box2.jpg" class="d-block img wow bounce start-img img-fluid"
+                        <img src="/img/baumanka/box2.jpg" class="d-block img wow tada shadow start-img img-fluid"
                             alt="Дыбка Даниил находится рядом с табличкой МГТУ им. Н.Э. Баумана">
                     </a>
                 </div>
@@ -129,8 +129,7 @@
         <div style="margin-bottom: 100px">
             <h2 id="photos" class="visually-hidden">Фотографии с мероприятий</h2>
 
-            <div class="item--block" id="k13">
-
+            <div class="item--block-top" id="k13">
                 <h2 class="item--head display-4">
                     «Радио-Поиск»
                 </h2>
@@ -155,365 +154,318 @@
                         </a>
                     </div>
                 </div>
-
             </div>
 
-            <div id="k12" style="margin-bottom: 45px">
-                <div class="py-5">
-                    <h2 class="m-0 d-text h-font">
+            <div class="item--block-link">
+                <div class="d-flex align-items-center">
+                    <a onClick="ButtonMorePhotos()" id="listphotoslink" data-bs-toggle="collapse" href="#listphotos" role="button" aria-expanded="false"
+                    aria-controls="listphotos" class="link fs-2 me-3">
+                        Смотреть полный список
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" id="listphotosicon" width="32" height="32" class="icon icon--more-rotate-bottom"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="collapse" id="listphotos">
+                <div class="item--block" id="k12">
+                    <h2 class="item--head display-4">
                         «Будущее сильной России – в высоких технологиях»
                     </h2>
-                    <p class="fs-4">Конференция, проводимая в сотрудничестве с Radar MMS в г. Санкт-Петербурге.
+                    <p class="item--desc fs-4">
+                        Конференция, проводимая в сотрудничестве с Radar MMS, г. Санкт-Петербург.
                         <a href="#k12" class="link " aria-label="Якорь на Будущее сильной России в высоких технологиях">#</a>
                     </p>
-                    <div>
-                        <a data-fancybox="radarmms_2" data-src="/img/futurerussia/cap.jpeg">
-                            <img src="/img/futurerussia/cap.jpeg" class="img w-100 pointer img-fluid" alt="Будущее сильной России в высоких технологиях">
-                        </a>
-                    </div>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="radarmms_2" data-src="/img/futurerussia/img1.jpeg">
-                                    <img loading="lazy" src="/img/futurerussia/img1.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее сильной России в высоких технологиях">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="radarmms_2" data-src="/img/futurerussia/img2.jpeg">
-                                    <img loading="lazy" src="/img/futurerussia/img2.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее сильной России в высоких технологиях">
-                                </a>
-                            </div>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="radarmms_2" data-src="/img/futurerussia/cap.jpg">
+                                <img src="/img/futurerussia/cap.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="Будущее сильной России в высоких технологиях">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="radarmms_2" data-src="/img/futurerussia/img1.jpg">
+                                <img src="/img/futurerussia/img1.jpg" class="item--img-left w-100 img-fluid m-0 p-0"
+                                    alt="Будущее сильной России в высоких технологиях">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="radarmms_2" data-src="/img/futurerussia/img2.jpg">
+                                <img src="/img/futurerussia/img2.jpg" class="item--img-right w-100 img-fluid m-0 p-0"
+                                    alt="Будущее сильной России в высоких технологиях">
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k11" style="margin-bottom: 45px">
-                <div class="py-5">
-                    <h2 class="m-0 d-text h-font">
+                <div class="item--block" id="k11">
+                    <h2 class="item--head display-4">
                         «Шаг в будущее»
                     </h2>
-                    <p class="fs-4">Олимпиада института МГТУ им. Н.Э. Баумана.
+                    <p class="item--desc fs-4">
+                        Олимпиада института МГТУ им. Н.Э. Баумана.
                         <a href="#k11" class="link " aria-label="Якорь на Шаг в будущее">#</a>
                     </p>
-                    <div>
-                        <a data-fancybox="baumanka" data-src="/img/baumanka/cap.jpg">
-                            <img loading="lazy" src="/img/baumanka/cap.jpg" class="img w-100 pointer img-fluid"
-                                alt="Шаг в будущее">
-                        </a>
-                    </div>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="baumanka" data-src="/img/baumanka/img1.jpg">
-                                    <img loading="lazy" src="/img/baumanka/img1.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Шаг в будущее">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="baumanka" data-src="/img/baumanka/img2.jpg">
-                                    <img loading="lazy" src="/img/baumanka/img2.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Шаг в будущее">
-                                </a>
-                            </div>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="baumanka" data-src="/img/baumanka/cap.jpg">
+                                <img src="/img/baumanka/cap.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="Шаг в будущее">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="baumanka" data-src="/img/baumanka/img1.jpg">
+                                <img src="/img/baumanka/img1.jpg" class="item--img-left w-100 img-fluid m-0 p-0" alt="Шаг в будущее">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="baumanka" data-src="/img/baumanka/img2.jpg">
+                                <img src="/img/baumanka/img2.jpg" class="item--img-right w-100 img-fluid m-0 p-0" alt="Шаг в будущее">
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k10" style="margin-bottom: 45px">
-                <div class="py-5">
-                    <h2 class="m-0 d-text h-font">
+                <div class="item--block" id="k10">
+                    <h2 class="item--head display-4">
                         «Будущее начинается сегодня»
                     </h2>
-                    <p class="fs-4">Конкурс от института МАИ, принимаю участие второй раз.
+                    <p class="item--desc fs-4">
+                        Конкурс от института МАИ, принимаю участие второй раз.
                         <a href="#k10" class="link " aria-label="Якорь на Будущее начинается сегодня">#</a>
                     </p>
-                    <div>
-                        <a data-fancybox="mai3" data-src="/img/mai3/img1.jpg">
-                            <img loading="lazy" src="/img/mai3/img1.jpg" class="img w-100 pointer img-fluid" alt="Будущее начинается сегодня">
-                        </a>
-                    </div>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="mai3" data-src="/img/mai3/cap.jpg">
-                                    <img loading="lazy" src="/img/mai3/cap.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее начинается сегодня">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="mai3" data-src="/img/mai3/img3.jpg">
-                                    <img loading="lazy" src="/img/mai3/img3.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее начинается сегодня">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="mai3" data-src="/img/mai3/img2.jpg">
-                                    <img loading="lazy" src="/img/mai3/img2.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее начинается сегодня">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="mai3" data-src="/img/mai3/img4.jpg">
-                                    <img loading="lazy" src="/img/mai3/img4.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее начинается сегодня">
-                                </a>
-                            </div>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="mai3" data-src="/img/mai3/img1.jpg">
+                                <img src="/img/mai3/img1.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="Будущее начинается сегодня">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="mai3" data-src="/img/mai3/img2.jpg">
+                                <img src="/img/mai3/img2.jpg" class="item--img-left w-100 img-fluid m-0 p-0"
+                                    alt="Будущее начинается сегодня">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="mai3" data-src="/img/mai3/img3.jpg">
+                                <img src="/img/mai3/img3.jpg" class="item--img-right w-100 img-fluid m-0 p-0"
+                                    alt="Будущее начинается сегодня">
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k9" style="margin-bottom: 45px">
-                <div class="py-5">
-                    <h2 class="m-0 d-text h-font">
+                <div class="item--block" id="k9">
+                    <h2 class="item--head display-4">
                         «Будущее Петербурга – в творчестве юных»
                     </h2>
-                    <p class="fs-4">Кейс-фестиваль на базе Radar MMS, г. Санкт-Петербург.
-                        <a href="#k9" class="link "
-                            aria-label="Якорь на Будущее Петербурга - в творчестве юных">#</a>
+                    <p class="item--desc fs-4">
+                        Кейс-фестиваль на базе Radar MMS, г. Санкт-Петербург.
+                        <a href="#k9" class="link " aria-label="Якорь на Будущее Петербурга - в творчестве юных">#</a>
                     </p>
-                    <div>
-                        <a data-fancybox="radarmms" data-src="/img/radarmms/img5.jpeg">
-                            <img loading="lazy" src="/img/radarmms/img5.jpeg" class="img pointer img-fluid"
-                                alt="Будущее Петербурга - в творчестве юных">
-                        </a>
-                    </div>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="radarmms" data-src="/img/radarmms/img3.jpeg">
-                                    <img loading="lazy" src="/img/radarmms/img3.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее Петербурга - в творчестве юных">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="radarmms" data-src="/img/radarmms/img1.jpeg">
-                                    <img loading="lazy" src="/img/radarmms/img1.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее Петербурга - в творчестве юных">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="radarmms" data-src="/img/radarmms/img2.jpeg">
-                                    <img loading="lazy" src="/img/radarmms/img2.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее Петербурга - в творчестве юных">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="radarmms" data-src="/img/radarmms/img6.jpeg">
-                                    <img loading="lazy" src="/img/radarmms/img6.jpeg" class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Будущее Петербурга - в творчестве юных">
-                                </a>
-                            </div>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="radarmms" data-src="/img/radarmms/cap.jpg">
+                                <img src="/img/radarmms/cap.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="Будущее Петербурга – в творчестве юных">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="radarmms" data-src="/img/radarmms/img1.jpg">
+                                <img src="/img/radarmms/img1.jpg" class="item--img-left w-100 img-fluid m-0 p-0"
+                                    alt="Будущее Петербурга – в творчестве юных">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="radarmms" data-src="/img/radarmms/img2.jpg">
+                                <img src="/img/radarmms/img2.jpg" class="item--img-right w-100 img-fluid m-0 p-0"
+                                    alt="Будущее Петербурга – в творчестве юных">
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k8" style="margin-bottom: 45px">
-                <div class="py-5">
-                    <h2 class="m-0 d-text h-font">
+                <div class="item--block" id="k8">
+                    <h2 class="item--head display-4">
                         «БИОНИКА-2022»
                     </h2>
-                    <p class="fs-4">От МГТУ им. Н.Э. Баумана.
-                        <a href="#k8" class="link " aria-label="Якорь на МГТУ им. Н.Э. Баумана">#</a>
+                    <p class="item--desc fs-4">
+                        Конференция от МГТУ им. Н.Э. Баумана.
+                        <a href="#k8" class="link " aria-label="Якорь на Бионику-2022">#</a>
                     </p>
-                    <div>
-                        <a data-fancybox="bionika" data-src="/img/bionika/1.jpg">
-                            <img loading="lazy" src="/img/bionika/1.jpg" class="img pointer img-fluid" alt="МГТУ им. Н.Э. Баумана, секция Бионика">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                        <div class="col wow fadeIn">
-                            <a data-fancybox="bionika" data-src="/img/bionika/2.jpg">
-                                <img loading="lazy" src="/img/bionika/2.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                    alt="МГТУ им. Н.Э. Баумана, секция Бионика">
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="bionika" data-src="/img/bionika/cap.jpg">
+                                <img src="/img/bionika/cap.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="БИОНИКА-2022">
                             </a>
                         </div>
-                        <div class="col wow fadeIn ">
-                            <a data-fancybox="bionika" data-src="/img/bionika/3.jpg">
-                                <img loading="lazy" src="/img/bionika/3.jpg" class="img pointer d-block mx-lg-auto img-fluid"
-                                    alt="МГТУ им. Н.Э. Баумана, секция Бионика">
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="bionika" data-src="/img/bionika/img1.jpg">
+                                <img src="/img/bionika/img1.jpg" class="item--img-left w-100 img-fluid m-0 p-0"
+                                    alt="БИОНИКА-2022">
                             </a>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="k7" style="margin-bottom: 45px">
-                <h2 class="m-0 d-text h-font">
-                    «Я — конструктор будущего»
-                </h2>
-                <p class="fs-4">От института Московского Авиационного Института.
-                    <a href="#k7" class="link " aria-label="Якорь на Московский Авиационный Институт">#</a>
-                </p>
-                <a data-fancybox="mai2" data-src="/img/mai2/1.jpg">
-                    <img loading="lazy" src="/img/mai2/1.jpg" class="img pointer img-fluid"
-                        alt="Московский Авиационный Институт">
-                </a>
-            </div>
-
-            <div id="k6" style="margin-bottom: 45px">
-                <h2 class="m-0 d-text h-font">
-                    «Ученые будущего»
-                </h2>
-                <p class="fs-4">На базе Московского Государственного Университета.
-                    <a href="#k6" class="link " aria-label="Якорь на Московский Государственный Университет">#</a>
-                </p>
-                <div class="container">
-                    <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                        <div class="col wow fadeIn">
-                            <a data-fancybox="mgy" data-src="/img/mgy/1.jpg">
-                                <img loading="lazy" src="/img/mgy/1.jpg" class="img pointer img-fluid" alt="Московский Государственный Университет">
-                            </a>
-                        </div>
-                        <div class="col wow fadeIn ">
-                            <a data-fancybox="mgy" data-src="/img/mgy/2.jpg">
-                                <img loading="lazy" src="/img/mgy/2.jpg" class="img pointer img-fluid" alt="Московский Государственный Университет">
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="bionika" data-src="/img/bionika/img2.jpg">
+                                <img src="/img/bionika/img2.jpg" class="item--img-right w-100 img-fluid m-0 p-0"
+                                    alt="БИОНИКА-2022">
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k5" style="margin-bottom: 45px">
-                <div class="mb-5">
-                    <h2 class="m-0 d-text h-font">
+                <div class="item--block" id="k7">
+                    <h2 class="item--head display-4">
+                        «Я — конструктор будущего»
+                    </h2>
+                    <p class="item--desc fs-4">
+                        Конкурс от Московского Авиационного Института.
+                        <a href="#k7" class="link " aria-label="Якорь на я - конструктор будущего">#</a>
+                    </p>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="bionika" data-src="/img/mai2/cap.jpg">
+                                <img src="/img/mai2/cap.jpg" class="item--img-once pointer img-fluid w-100 m-0 p-0"
+                                    alt="Я — конструктор будущего">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item--block" id="k6">
+                    <h2 class="item--head display-4">
+                        «Ученые будущего»
+                    </h2>
+                    <p class="item--desc fs-4">
+                        Конкурс от Московского Государственного Университета.
+                        <a href="#k6" class="link " aria-label="Якорь на ученые будущего">#</a>
+                    </p>
+                    <div class="row g-0">
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="mgy" data-src="/img/mgy/img1.jpg">
+                                <img src="/img/mgy/img1.jpg" class="item--img-left-once w-100 img-fluid m-0 p-0" alt="Ученые будущего">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="mgy" data-src="/img/mgy/img2.jpg">
+                                <img src="/img/mgy/img2.jpg" class="item--img-right-once w-100 img-fluid m-0 p-0" alt="Ученые будущего">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item--block" id="k5">
+                    <h2 class="item--head display-4">
                         «Разведка боем»
                     </h2>
-                    <p class="fs-4">В рамках стартап-марафона от Инновационного центра «Сколково».
-                        <a href="#k5" class="link " aria-label="Якорь на Инновационный центр Сколково">#</a>
+                    <p class="item--desc fs-4">
+                        Стартап-марафона от центра «Сколково».
+                        <a href="#k5" class="link " aria-label="Якорь на разведка боем">#</a>
                     </p>
-                    <a data-fancybox="skolkovo" data-src="/img/skolkovo/1.jpg">
-                        <img loading="lazy" src="/img/skolkovo/1.jpg" class="img pointer img-fluid"
-                            alt="Инновационный центр Сколково">
-                    </a>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="skolkovo" data-src="/img/skolkovo/2.jpg">
-                                    <img loading="lazy" src="/img/skolkovo/2.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Инновационный центр Сколково">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="skolkovo" data-src="/img/skolkovo/3.jpg">
-                                    <img loading="lazy" src="/img/skolkovo/3.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Инновационный центр Сколково">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="skolkovo" data-src="/img/skolkovo/4.jpg">
-                                    <img loading="lazy" src="/img/skolkovo/4.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Инновационный центр Сколково">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="skolkovo" data-src="/img/skolkovo/5.jpg">
-                                    <img loading="lazy" src="/img/skolkovo/5.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid"
-                                        alt="Инновационный центр Сколково">
-                                </a>
-                            </div>
+                    <div class="row g-0">
+                        <div class="col-md-12 col-sm-12">
+                            <a data-fancybox="skolkovo" data-src="/img/skolkovo/1.jpg">
+                                <img src="/img/skolkovo/1.jpg" class="item--img-top pointer img-fluid w-100 m-0 p-0"
+                                    alt="Разведка боем">
+                            </a>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="k4" style="margin-bottom: 45px">
-                <div class="mb-5">
-                    <h2 class="m-0 d-text h-font">
-                        «Startup House Universities»
-                    </h2>
-                    <p class="fs-4">Конкурс от института «Иннополис».
-                        <a href="#k4" class="link " aria-label="Якорь на Институт Иннополис">#</a>
-                    </p>
-                    <a data-fancybox="innopolis" data-src="/img/innopolis/1.jpg">
-                        <img loading="lazy" src="/img/innopolis/1.jpg" class="img pointer img-fluid" alt="Институт Иннополис">
-                    </a>
-                </div>
-
-                <div data-wow-offset="100">
-                    <div class="container">
-                        <div class="row gx-5 row-cols-1 mb-5 gy-5 row-cols-sm-1 row-cols-md-2">
-                            <div class="col wow fadeIn">
-                                <a data-fancybox="innopolis" data-src="/img/innopolis/2.jpg">
-                                    <img loading="lazy" src="/img/innopolis/2.jpg"
-                                        class="img pointer d-block mx-lg-auto img-fluid" alt="Институт Иннополис">
-                                </a>
-                            </div>
-                            <div class="col wow fadeIn ">
-                                <a data-fancybox="innopolis" data-src="/img/innopolis/3.jpg">
-                                    <img loading="lazy" src="/img/innopolis/3.jpg"
-                                        class="img pointerd-block mx-lg-auto img-fluid" alt="Институт Иннополис">
-                                </a>
-                            </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="skolkovo" data-src="/img/skolkovo/2.jpg">
+                                <img src="/img/skolkovo/2.jpg" class="w-100 img-fluid m-0 p-0" alt="Разведка боем">
+                            </a>
                         </div>
-                        <div>
-                            <a data-fancybox="innopolis" data-src="/img/innopolis/4.jpg">
-                                <img loading="lazy" src="/img/innopolis/4.jpg"
-                                    class="img pointer d-block mx-lg-auto wow fadeIn img-fluid"
-                                    alt="Институт Иннополис">
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="skolkovo" data-src="/img/skolkovo/3.jpg">
+                                <img src="/img/skolkovo/3.jpg" class="w-100 img-fluid m-0 p-0" alt="Разведка боем">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="skolkovo" data-src="/img/skolkovo/4.jpg">
+                                <img src="/img/skolkovo/4.jpg" class="item--img-left w-100 img-fluid m-0 p-0" alt="Разведка боем">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <a data-fancybox="skolkovo" data-src="/img/skolkovo/5.jpg">
+                                <img src="/img/skolkovo/5.jpg" class="item--img-right w-100 img-fluid m-0 p-0" alt="Разведка боем">
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="k3" style="margin-bottom: 45px">
-                <h2 class="m-0 d-text h-font">
-                    Национальная технологическая инициатива
-                </h2>
-                <p class="fs-4">Награждение финалистов НТО в офисе компании 1C.
-                    <a href="#k3" class="link " aria-label="Якорь на Национальная технологическая инициатива">#</a>
-                </p>
-                <a data-fancybox="1c" data-src="/img/1c/1.jpg">
-                    <img loading="lazy" src="/img/1c/1.jpg" class="img pointer img-fluid" alt="Офис 1C">
-                </a>
-            </div>
 
-            <div id="k1" style="margin-bottom: 45px">
-                <p class="display-4 h-font mb-0">
-                    «Будущее начинается сегодня»
-                </p>
-                <p class="fs-4">Конкурс от Московского Авиационного Института.
-                    <a href="#k1" class="link " aria-label="Якорь на Московский Авиационный Институт">#</a>
-                </p>
-                <a data-fancybox="mai1" data-src="/img/mai/2.jpg">
-                    <img loading="lazy" src="/img/mai/2.jpg" class="img pointer img-fluid"
-                        alt="Московский Авиационный Институт">
-                </a>
+                <div id="k4" style="margin-bottom: 45px">
+                    <div class="mb-5">
+                        <h2 class="m-0 d-text h-font">
+                            «Startup House Universities»
+                        </h2>
+                        <p class="fs-4">Конкурс от института «Иннополис».
+                            <a href="#k4" class="link " aria-label="Якорь на Институт Иннополис">#</a>
+                        </p>
+                        <a data-fancybox="innopolis" data-src="/img/innopolis/1.jpg">
+                            <img loading="lazy" src="/img/innopolis/1.jpg" class="img pointer img-fluid" alt="Институт Иннополис">
+                        </a>
+                    </div>
+
+                    <div data-wow-offset="100">
+                        <div class="container">
+                            <div class="row gx-5 row-cols-1 mb-5 gy-5 row-cols-sm-1 row-cols-md-2">
+                                <div class="col wow fadeIn">
+                                    <a data-fancybox="innopolis" data-src="/img/innopolis/2.jpg">
+                                        <img loading="lazy" src="/img/innopolis/2.jpg" class="img pointer d-block mx-lg-auto img-fluid"
+                                            alt="Институт Иннополис">
+                                    </a>
+                                </div>
+                                <div class="col wow fadeIn ">
+                                    <a data-fancybox="innopolis" data-src="/img/innopolis/3.jpg">
+                                        <img loading="lazy" src="/img/innopolis/3.jpg" class="img pointerd-block mx-lg-auto img-fluid"
+                                            alt="Институт Иннополис">
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <a data-fancybox="innopolis" data-src="/img/innopolis/4.jpg">
+                                    <img loading="lazy" src="/img/innopolis/4.jpg"
+                                        class="img pointer d-block mx-lg-auto wow fadeIn img-fluid" alt="Институт Иннополис">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="k3" style="margin-bottom: 45px">
+                    <h2 class="m-0 d-text h-font">
+                        Национальная технологическая инициатива
+                    </h2>
+                    <p class="fs-4">Награждение финалистов НТО в офисе компании 1C.
+                        <a href="#k3" class="link " aria-label="Якорь на Национальная технологическая инициатива">#</a>
+                    </p>
+                    <a data-fancybox="1c" data-src="/img/1c/1.jpg">
+                        <img loading="lazy" src="/img/1c/1.jpg" class="img pointer img-fluid" alt="Офис 1C">
+                    </a>
+                </div>
+
+                <div id="k1" style="margin-bottom: 45px">
+                    <p class="display-4 h-font mb-0">
+                        «Будущее начинается сегодня»
+                    </p>
+                    <p class="fs-4">Конкурс от Московского Авиационного Института.
+                        <a href="#k1" class="link " aria-label="Якорь на Московский Авиационный Институт">#</a>
+                    </p>
+                    <a data-fancybox="mai1" data-src="/img/mai/2.jpg">
+                        <img loading="lazy" src="/img/mai/2.jpg" class="img pointer img-fluid" alt="Московский Авиационный Институт">
+                    </a>
+                </div>
             </div>
         </div>
 
         <div style="margin-bottom: 100px">
             <h2 id="smi" class="visually-hidden">Участие в программах</h2>
+
             <div>
                 <a href="//t.me/izobretarium/219" class="link  fs-4" target="_blank">
                     Интервью каналу «360»
@@ -612,6 +564,8 @@
         </div>
 
     </main>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/click.js"></script>
 </body>
 
 </html>
