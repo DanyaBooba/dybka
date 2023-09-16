@@ -55,3 +55,7 @@ Fancybox.bind('[data-fancybox="radarmms_2"]', {
 Fancybox.bind('[data-fancybox="radiopoisk"]', {
 	infinite: false,
 });
+
+Fancybox.bind('[data-fancybox="gosduma"]', {
+	infinite: false,
+});
