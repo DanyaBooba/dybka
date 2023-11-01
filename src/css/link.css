@@ -4,7 +4,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
-    border-bottom: .18rem var(--link-hover) solid;
+    border-bottom: 1px var(--link-hover) solid;
 
     transition-property: color;
     transition: .3s;
@@ -13,7 +13,7 @@
 .link:hover,
 .link:focus {
     color: var(--text-color);
-    border-bottom: .18rem var(--text-color) solid;
+    border-bottom: 1px var(--text-color) solid;
 }
 
 
