@@ -80,3 +80,85 @@ p:hover .underline-2 {
         font-size: 2.2rem;
     }
 }
+
+/* Project */
+
+.col-project-gradient {
+    background-image:
+        linear-gradient(180deg,var(--bg-gradient-1),var(--bg-gradient-2) 85%),radial-gradient(ellipse at top left,
+        rgba(255,228,132,.5),transparent 50%),radial-gradient(ellipse at top right,rgba(13,110,253,.5),transparent 50%),
+        radial-gradient(ellipse at center right,rgba(214,51,132,.5),transparent 50%),radial-gradient(ellipse at center left,
+        rgba(112,44,249,.5),transparent 50%) !important;
+}
+
+.col-project
+{
+    background: rgba(var(--bg-color-rbg), 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-color: rgba(var(--bg-color-rbg), 0.3) !important;
+
+    min-height: 200px;
+    border-radius: 16px;
+    padding: 20px;
+    transition: .5s;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    word-break: break-word !important;
+}
+
+.col-project:hover {
+    background: rgba(var(--bg-color-rbg), .5);
+}
+
+.col-project p {
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.col-project:hover p {
+    text-decoration: underline !important;
+    text-decoration-color: var(--ol-marker) !important;
+}
+
+.col-project div.d-flex {
+    flex-wrap: wrap;
+}
+
+.col-project div.d-flex span
+{
+    font-size: 14px;
+    border: 1px solid var(--ol-marker);
+    border-color: var(--ol-marker) !important;
+    color: var(--ol-marker);
+    border-radius: 20px;
+    padding: 4px 16px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+}
+
+.col-project div.d-flex .ms-auto svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--text-color) !important;
+}
+
+.col-project div.mt-auto {
+    font-size: 14px;
+    max-width: 300px;
+    line-height: 180%;
+    color: var(--ol-marker);
+}
+
+@media(max-width: 300px) {
+    .col-project p {
+        font-size: 24px !important;
+    }
+}

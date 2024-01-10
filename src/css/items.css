@@ -57,6 +57,7 @@
 
 .item--block-top {
     margin-bottom: 60px;
+    word-break: break-word !important;
 }
 
 .item--block-link {

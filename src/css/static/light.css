@@ -3,8 +3,13 @@
     --link-hover: #dfdfdf;
 
     --bg-color: #ffffff;
+    --bg-color-rbg: 255,255,255;
+    --bg-color-invert-rbg: 38,35,35;
     --text-color: #000000;
 
     --ol-marker: #999;
     --bg-image: url('/img/_content/bgimg_light.jpg');
+
+    --bg-gradient-1: rgba(255,255,255, .01);
+    --bg-gradient-2: rgb(255,255,255);
 }
