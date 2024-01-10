@@ -259,7 +259,139 @@
         </div>
 
 
+        <style>
+            .bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
 
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+        </style>
+
+        <h2 class="text-center">Посещения в Новый Год</h2>
+        <p class="text-center">Ресурс: Creagoo</p>
+
+        <canvas class="my-4 w-100" id="myChart1" width="2304" height="972" style="display: block; box-sizing: border-box; height: 486px; width: 1152px;"></canvas>
+
+        <div style="margin-bottom: 30px;">
+            <div class="d-flex">
+                <div class="pe-2">
+                    <div class="col-md-2">
+                        <b>Визиты:</b>
+                    </div>
+                    <div class="col-md-2">
+                        <b>Посетители:</b>
+                    </div>
+                    <div class="col-md-2">
+                        <b>Просмотры:</b>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-4">
+                        2,072
+                    </div>
+                    <div class="col-md-4">
+                        1,557
+                    </div>
+                    <div class="col-md-4">
+                        8,310
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js"
+            integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp"
+            crossorigin="anonymous"></script>
+        <script>
+                (() => {
+                    'use strict'
+
+                    const ctx = document.getElementById('myChart1')
+                    const myChart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: [
+                                '11.12.23',
+                                '16.12.23',
+                                '21.12.23',
+                                '26.12.23',
+                                '31.12.23',
+                                '05.01.24',
+                                '10.01.24'
+                            ],
+                            datasets: [{
+                                data: [
+                                    30,
+                                    44,
+                                    52,
+                                    41,
+                                    89,
+                                    83,
+                                    56
+                                ],
+                                lineTension: 0,
+                                backgroundColor: 'transparent',
+                                borderColor: '#007bff',
+                                borderWidth: 4,
+                                pointBackgroundColor: '#007bff'
+                            }]
+                        },
+                        options: {
+                            plugins: {
+                                legend: {
+                                    display: false
+                                },
+                                tooltip: {
+                                    boxPadding: 3
+                                }
+                            }
+                        }
+                    })
+                })()
+        </script>
 
 
         <div style="margin-bottom: 100px">
