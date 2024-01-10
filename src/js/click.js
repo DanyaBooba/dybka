@@ -1,19 +1,21 @@
 let link = document.getElementById("listphotoslink");
 let icon = document.getElementById("listphotosicon");
 
-function ButtonMorePhotos() {
+function ButtonMorePhotos(lang) {
 	if (link === null || icon === null) return;
 
 	if (icon.classList.contains("icon--more-rotate-bottom")) {
 		icon.classList.remove("icon--more-rotate-bottom");
 		icon.classList.add("icon--more-rotate-top");
 
-		link.innerHTML = "Скрыть полный список";
+		link.innerHTML =
+			lang === "ru" ? "Скрыть полный список" : "Hide the full list";
 	} else {
 		icon.classList.add("icon--more-rotate-bottom");
 		icon.classList.remove("icon--more-rotate-top");
 
-		link.innerHTML = "Смотреть полный список";
+		link.innerHTML =
+			lang === "ru" ? "Смотреть полный список" : "View the full list";
 	}
 }
 
