@@ -10,6 +10,8 @@ function ButtonMorePhotos(lang) {
 
 		link.innerHTML =
 			lang === "ru" ? "Скрыть полный список" : "Hide the full list";
+
+		localStorage.setItem("lang", lang);
 	} else {
 		icon.classList.add("icon--more-rotate-bottom");
 		icon.classList.remove("icon--more-rotate-top");
@@ -23,7 +25,7 @@ function CheckURL() {
 	let url = window.location.hash.substr(1);
 
 	if (url[0] == "k") {
-		ButtonMorePhotos();
+		ButtonMorePhotos(localStorage.getItem("lang") ?? "ru");
 
 		let container = document.getElementById("listphotos");
 		container.classList.add("show");

@@ -19,7 +19,7 @@
 
 .link-icon svg {
     color: var(--link-hover) !important;
-    fill: var(--link-hover) !important;
+    stroke: var(--link-hover) !important;
     text-decoration: none;
     padding: 0;
     margin: 0;
@@ -30,7 +30,7 @@
 .link-icon:hover svg,
 .link-icon:focus svg {
     color: var(--text-color) !important;
-    fill: var(--text-color) !important;
+    stroke: var(--text-color) !important;
 }
 
 

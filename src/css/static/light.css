@@ -12,4 +12,8 @@
 
     --bg-gradient-1: rgba(255,255,255, .01);
     --bg-gradient-2: rgb(255,255,255);
+
+    --project-mark-border: rgba(197, 197, 197, .5);
+    --project-border: #ccc;
+    --project-shadow: rgba(0, 0, 0, 0.1);
 }

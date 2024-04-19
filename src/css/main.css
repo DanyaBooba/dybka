@@ -93,27 +93,27 @@ p:hover .underline-2 {
 
 .col-project
 {
-    background: rgba(var(--bg-color-rbg), 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-color: rgba(var(--bg-color-rbg), 0.3) !important;
-
-    min-height: 200px;
-    border-radius: 16px;
-    padding: 20px;
-    transition: .5s;
-    margin-bottom: 30px;
-
     display: flex;
+    min-height: 200px;
     flex-direction: column;
     word-break: break-word !important;
+
+    border-radius: 16px;
+    border: .1rem solid var(--project-border);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(var(--bg-color-rbg), 0.2);
+
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+
+    transition: .2s;
 }
 
 .col-project:hover {
     background: rgba(var(--bg-color-rbg), .5);
+    box-shadow: 0 4px 15px var(--project-shadow);
 }
 
 .col-project p {
@@ -124,7 +124,9 @@ p:hover .underline-2 {
 }
 
 .col-project:hover p {
+    text-underline-offset: .5rem;
     text-decoration: underline !important;
+    text-decoration-thickness: .05rem !important;
     text-decoration-color: var(--ol-marker) !important;
 }
 
@@ -135,19 +137,25 @@ p:hover .underline-2 {
 .col-project div.d-flex span
 {
     font-size: 14px;
-    border: 1px solid var(--ol-marker);
-    border-color: var(--ol-marker) !important;
-    color: var(--ol-marker);
-    border-radius: 20px;
     padding: 4px 16px;
     margin-right: 4px;
     margin-bottom: 6px;
+    border-radius: 20px;
+    color: var(--ol-marker);
+    border: .1rem solid var(--project-mark-border);
+    border-color: var(--project-mark-border) !important;
 }
 
 .col-project div.d-flex .ms-auto svg {
     width: 32px;
     height: 32px;
-    fill: var(--text-color) !important;
+    stroke: var(--text-color) !important;
+    opacity: 0;
+    transition: .2s;
+}
+
+.col-project:hover div.d-flex .ms-auto svg {
+    opacity: 1;
 }
 
 .col-project div.mt-auto {

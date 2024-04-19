@@ -59,3 +59,7 @@ Fancybox.bind('[data-fancybox="radiopoisk"]', {
 Fancybox.bind('[data-fancybox="gosduma"]', {
 	infinite: false,
 });
+
+Fancybox.bind('[data-fancybox="baumanka3"]', {
+	infinite: false,
+});
