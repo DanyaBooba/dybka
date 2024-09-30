@@ -1,0 +1,23 @@
+@font-face {
+    font-family: ResistSans;
+    font-display: swap;
+    font-weight: 400;
+    src:
+        url('/fonts/ResistSans/ResistSansText-Regular.ttf');
+}
+
+@font-face {
+    font-family: Inter;
+    font-display: swap;
+    font-weight: 400;
+    src:
+        url('/fonts/Inter/Inter-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ResistSans !important;
+}
+
+p {
+    font-family: Inter !important;
+}
