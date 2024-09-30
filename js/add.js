@@ -9,8 +9,10 @@ function AddWins(lang) {
                 </div>
                 <div class="row g-0">
                     <div class="col-md-12 col-sm-12">
-                        ${images.map((image, index) => {
-                            let classImg = 'once'
+                        ${images.map((dataImage, index) => {
+                            let data = dataImage.split(' ')
+                            let image = data[0]
+                            let classImg = data[1]
                             return `<a data-fancybox="${imageFancybox}" data-src="${image}">
                             <img src="${image}" class="item--img-${classImg} pointer img-fluid w-100 m-0 p-0" alt="${title}">
                         </a>`
