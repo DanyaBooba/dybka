@@ -14,3 +14,23 @@
 .item--block .item--head {
     flex: 1 !important;
 }
+
+.item--img-top {
+    border-radius: 12px 12px 0px 0px;
+}
+
+.item--img-bottom {
+    border-radius: 0 0 12px 12px;
+}
+
+.item--img-left {
+    border-radius: 0px 0px 0px 12px;
+}
+
+.item--img-once {
+    border-radius: 12px;
+}
+
+.item--img-right {
+    border-radius: 0px 0px 12px 0px;
+}
