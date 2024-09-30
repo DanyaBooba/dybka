@@ -1,18 +1,21 @@
 const wins = [
     {
+        title: 'Изобит-2024', desc: 'Конференция в Изобретариуме 3.0, г.Реутов', imageFancybox: 'izob', images: ['/img/izob/izob.jpg once']
+    },
+    {
         title: 'Студенческая весна', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: 'baumanka3', images: ['/img/baumanka3/img2.jpg once']
     },
     {
-        title: '123', desc: 'Конкурс от института МАИ, принимаю участие второй раз.', imageFancybox: 'mai3', images: ['/img/mai3/img1.jpg top', '/img/mai3/img2.jpg ', '/img/mai3/img3.jpg bottom']
+        title: 'Русский Инженер', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: 'baumanka2', images: ['/img/baumanka2/img1.jpg top', '/img/baumanka2/img2.jpg ', '/img/baumanka2/img3.jpg bottom']
     },
     {
-        title: '123', desc: 'Конкурс от института МАИ, принимаю участие второй раз.', imageFancybox: 'mai3', images: ['/img/mai3/img1.jpg top', '/img/mai3/img2.jpg ', '/img/mai3/img3.jpg bottom']
+        title: 'Юные техники и изобретатели', desc: 'Конференция, награждение в Государственной думе, 15 сентября.', imageFancybox: 'gosduma', images: ['/img/gosduma/img1.jpg top', '/img/gosduma/img2.jpg bottom']
     },
     {
-        title: '123', desc: 'Конкурс от института МАИ, принимаю участие второй раз.', imageFancybox: 'mai3', images: ['/img/mai3/img1.jpg top', '/img/mai3/img2.jpg ', '/img/mai3/img3.jpg bottom']
+        title: 'Радио-Поиск', desc: 'Конкурс радиолюбителей в г.Москве, 22 апреля.', imageFancybox: 'radiopoisk', images: ['/img/radiopoisk/cap.jpeg top', '/img/radiopoisk/img1.jpeg ', '/img/radiopoisk/img2.jpeg bottom']
     },
     {
-        title: 'Будущее сильной России – в высоких технологиях', desc: 'Конференция, проводимая в сотрудничестве с Radar MMS, г.Санкт-Петербург.', imageFancybox: 'mai3', images: ['/img/mai3/img1.jpg top', '/img/mai3/img2.jpg ', '/img/mai3/img3.jpg bottom']
+        title: 'Будущее сильной России – в высоких технологиях', desc: 'Конференция, проводимая в сотрудничестве с Radar MMS, г.Санкт-Петербург.', imageFancybox: 'radarmms_2', images: ['/img/futurerussia/cap.jpg top', '/img/futurerussia/img1.jpg ', '/img/futurerussia/img2.jpg bottom']
     },
     {
         title: 'Шаг в будущее', desc: 'Олимпиада института МГТУ им. Н.Э. Баумана.', imageFancybox: 'baumanka', images: ['/img/baumanka/cap.jpg top', '/img/baumanka/img1.jpg ', '/img/baumanka/img2.jpg bottom']
