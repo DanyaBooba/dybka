@@ -1,14 +1,31 @@
 const wins = [
     {
-        title: 'Заголовок 1', desc: 'Описание', imageFancybox: '123', images: ['/img/baumanka3/img2.jpg', '123']
+        title: 'Студенческая весна 1', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: '123', images: ['/img/baumanka3/img2.jpg']
     },
     {
-        title: 'Заголовок 2', desc: 'Описание', imageFancybox: '123', images: ['/img/baumanka3/img2.jpg', '123']
-    }
+        title: 'Студенческая весна 2', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: '123', images: ['/img/baumanka3/img2.jpg']
+    },
+    {
+        title: 'Студенческая весна 3', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: '123', images: ['/img/baumanka3/img2.jpg']
+    },
+    {
+        title: 'Студенческая весна', desc: 'Конференция в МГТУ <nobr>им. Н.Э. Баумана</nobr>, кафедры ИУ-9.', imageFancybox: 'baumanka3', images: ['/img/baumanka3/img2.jpg']
+    },
 ]
 
 const smi = [
-
+    {
+        title: 'Название',
+        link: '123'
+    },
+    {
+        title: 'Название',
+        link: '123'
+    },
+    {
+        title: 'Название',
+        link: '123'
+    },
 ]
 
 function AddWins() {
@@ -16,7 +33,7 @@ function AddWins() {
         return `<div class="item--block" id="k${id}">
                 <div class="container px-0">
                   <div class="row row-cols-1 row-cols-lg-2 g-2 align-items-center">
-                    <h2 class="item--head display-5">${title}</h2>
+                    <h2 class="item--head display-5">«${title}»</h2>
                     <p class="item--desc">${desc}</p>
                   </div>
                 </div>
@@ -38,7 +55,7 @@ function AddWins() {
 
     for (let i = wins.length - 2; i >= 0; i--) {
         let win = winHtml(wins[i])
-        console.log(win)
+        elementsRoot.insertAdjacentHTML('afterbegin', win)
     }
 }
 
