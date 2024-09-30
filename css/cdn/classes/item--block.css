@@ -9,6 +9,7 @@
 
 .item--block .item--desc {
     max-width: 300px;
+    margin-bottom: 0;
 }
 
 .item--block .item--head {

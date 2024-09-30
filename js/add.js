@@ -1,6 +1,6 @@
 function AddWins(lang) {
-    function winHtml({ id, title, desc, imageFancybox, images }) {
-        return `<div class="item--block" id="k${id}">
+    function winHtml({ title, desc, imageFancybox, images }) {
+        return `<div class="item--block" id="k-${title.toLowerCase().replaceAll(' ', '-')}">
                 <div class="container px-0">
                   <div class="row row-cols-1 row-cols-lg-2 g-2 align-items-center">
                     <h2 class="item--head display-5">«${title}»</h2>
@@ -9,7 +9,7 @@ function AddWins(lang) {
                 </div>
                 <div class="row g-0">
                     <div class="col-md-12 col-sm-12">
-                        ${images.map((dataImage, index) => {
+                        ${images.map(dataImage => {
                             let data = dataImage.split(' ')
                             let image = data[0]
                             let classImg = data[1]
@@ -25,10 +25,10 @@ function AddWins(lang) {
     const firstRoot = document.getElementById('root-wins-first')
     const elementsRoot = document.getElementById('root-wins-elements')
 
-    let win = winHtml(wins[wins.length - 1])
+    let win = winHtml(wins[0])
     firstRoot.insertAdjacentHTML('afterbegin', win)
 
-    for (let i = wins.length - 2; i >= 0; i--) {
+    for (let i = 1; i < wins.length; i++) {
         let win = winHtml(wins[i])
         elementsRoot.insertAdjacentHTML('beforeend', win)
     }
