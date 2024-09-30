@@ -1,0 +1,29 @@
+:root {
+    --text-color: #000;
+    --body-bg: #fff;
+
+    --link-img-main-border: #12312377;
+    --link-color: #3380f1;
+    --link-underline: #3380f177;
+    --link-underline-hover: #3380f1;
+
+
+
+
+    /* --link-hover: #dfdfdf;
+
+    --bg-color: #ffffff;
+    --bg-color-rbg: 255, 255, 255;
+    --bg-color-invert-rbg: 38, 35, 35;
+    --text-color: #000000;
+
+    --ol-marker: #999;
+    --bg-image: url('/img/_content/bgimg_light.png');
+
+    --bg-gradient-1: rgba(255, 255, 255, .01);
+    --bg-gradient-2: rgb(255, 255, 255);
+
+    --project-mark-border: rgba(197, 197, 197, .5);
+    --project-border: #ccc;
+    --project-shadow: rgba(0, 0, 0, 0.1); */
+}

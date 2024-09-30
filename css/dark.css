@@ -1,0 +1,27 @@
+:root {
+    --text-color: #fff;
+    --body-bg: #020709;
+
+    --link-img-main-border: #dddddd77;
+    --link-color: #6fa8fc;
+    --link-underline: #6fa8fc77;
+    --link-underline-hover: #6fa8fc;
+
+    /* --text-color: #fff;
+    --link-hover: #555;
+
+    --bg-color: #262323;
+    --bg-color-rbg: 38, 35, 35;
+    --bg-color-invert-rbg: 255, 255, 255;
+    --text-color: #fff;
+
+    --ol-marker: #aaa;
+    --bg-image: url('/img/_content/bgimg_dark.jpg');
+
+    --bg-gradient-1: rgba(38, 35, 35, .01);
+    --bg-gradient-2: rgb(38, 35, 35);
+
+    --project-mark-border: rgba(84, 84, 84, .5);
+    --project-border: #5c5656;
+    --project-shadow: rgba(161, 161, 161, 0.1); */
+}

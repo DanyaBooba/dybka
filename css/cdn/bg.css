@@ -1,0 +1,4 @@
+body {
+    background-image: url('/img/_content/bgimg_light.png');
+    background-color: var(--body-bg) !important;
+}

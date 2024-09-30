@@ -1,0 +1,26 @@
+svg.icon-link {
+    stroke: var(--link-color) !important;
+}
+
+a {
+    color: var(--link-color) !important;
+    text-decoration-thickness: .05rem !important;
+    text-underline-offset: .3rem;
+    text-decoration-color: var(--link-underline) !important;
+}
+
+a:focus {
+    text-decoration-color: var(--link-underline-hover) !important;
+}
+
+@media(hover: hover) {
+    a:hover {
+        text-decoration-color: var(--link-underline-hover) !important;
+    }
+}
+
+@media(hover: none) {
+    a:active {
+        text-decoration-color: var(--link-underline-hover) !important;
+    }
+}
