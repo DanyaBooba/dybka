@@ -1,0 +1,16 @@
+.item--block {
+    max-width: 1000px;
+    margin-bottom: 4rem;
+}
+
+.item--block .container {
+    margin-bottom: .5rem;
+}
+
+.item--block .item--desc {
+    max-width: 300px;
+}
+
+.item--block .item--head {
+    flex: 1 !important;
+}
