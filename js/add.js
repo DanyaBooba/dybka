@@ -25,17 +25,33 @@ function AddWins(lang) {
     const firstRoot = document.getElementById('root-wins-first')
     const elementsRoot = document.getElementById('root-wins-elements')
 
-    let win = winHtml(wins[0])
+    let win = winHtml(lang == 'ru' ? wins[0] : winsEn[0])
     firstRoot.insertAdjacentHTML('afterbegin', win)
 
     for (let i = 1; i < wins.length; i++) {
-        let win = winHtml(wins[i])
+        let win = winHtml(lang == 'ru' ? wins[i] : winsEn[i])
         elementsRoot.insertAdjacentHTML('beforeend', win)
     }
 }
 
 function AddSMI(lang) {
-    const root = document.getElementById('')
+    function smiHtml({ title, link }) {
+        return `<li>
+                    <a href="${link}" class="fs-4" target="_blank">
+                        ${title}
+                    </a>
+                </li>`
+    }
+
+    const root = document.querySelector('ul#smi')
+    smi.forEach(el => {
+        let currentSmi = smiHtml({
+            title: lang == 'ru' ? el.title : el.titleEn,
+            link: el.link
+        })
+
+        root.insertAdjacentHTML('beforeend', currentSmi)
+    })
 }
 
 function Add(lang) {

@@ -1,0 +1,9 @@
+ul#smi {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+ul#smi li {
+    margin-bottom: .5rem;
+}
