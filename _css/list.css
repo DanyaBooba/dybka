@@ -1,7 +1,0 @@
-ul li::marker {
-    color: var(--link-hover) !important;
-}
-
-ol li::marker {
-    color: var(--ol-marker) !important;
-}
